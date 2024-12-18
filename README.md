@@ -7,7 +7,7 @@
 ## Instruções
 
 1. Crie um novo projeto Next.js com TypeScript.
-2. Utilize a origin `localhost:3024` para consumo dos dados da API.
+2. Utilize a origin `http://localhost:3024` para consumo dos dados da API.
 3. Faça commits claros e semânticos.
 4. Replique o layout presente no link fornecido [aqui](https://www.figma.com/design/5hZQc5whUDeK8VL40WUCKl/teste-tecnico?node-id=0-1&node-type=canvas&m=dev).
 5. Desenvolva o layout com abordagem mobile-first.
