@@ -20,6 +20,7 @@
      - A ação de favoritar deve salvar as informações no `localStorage` para serem exibidas na rota inicial.
      - Permita que o usuário desmarque um curso como favorito, removendo-o da lista de favoritos e do `localStorage`.
      - Redirecione para uma página 404 se a slug do curso não for válida.
+7. Não utilizar bibliotecas de componentes pré-fabricados como, Material UI, Shadcn, etc.
 
 ## Bônus
 
