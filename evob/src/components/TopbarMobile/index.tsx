@@ -4,6 +4,7 @@ import search from "@/assets/search.svg";
 import menu from "@/assets/menu.svg";
 import enter from "@/assets/enter-purple.svg";
 import { MenuContainer, TopBarMobileContainer } from "./styles";
+import Link from "next/link";
 
 export default function TopbarMobile() {
     return (
@@ -12,7 +13,9 @@ export default function TopbarMobile() {
                 <Image src={menu} alt="Menu" width={22} height={20} />
                 <Image src={search} alt="Buscar" width={16} height={20} />
             </MenuContainer>
-            <Image src={logo} alt="evob" width={50} height={20} />
+            <Link href="/">
+                <Image src={logo} alt="evob" width={50} height={20} />
+            </Link>
             <Image src={enter} alt="Login" width={20} height={20} />
         </TopBarMobileContainer>
     )
