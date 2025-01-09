@@ -2,9 +2,9 @@
 import Image from "next/image";
 import { useState } from "react";
 import { Overlay, PopupCloseButton, PopupContainer, PopupCopyButton, PopupFooter, PopupFooterButton, PopupHeader, PopupShareButton, PopupShareContent, PopupCopyMessage, PopupShareUrl, PopupTitle } from "./styles";
-import close from "../../assets/close.svg";
-import copy from "../../assets/copy.svg";
-import whatsapp from "../../assets/whatsapp-white.svg";
+import close from "@/assets/close.svg";
+import copy from "@/assets/copy.svg";
+import whatsapp from "@/assets/whatsapp-white.svg";
 
 interface SharePopupProps {
     togglePopup: (event: React.MouseEvent<HTMLElement>) => void;

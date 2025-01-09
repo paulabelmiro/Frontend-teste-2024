@@ -1,9 +1,9 @@
 "use client"
-import { useFavorites } from "../../contexts/favoritesContext";
+import { useFavorites } from "@/contexts/favoritesContext";
 import Image from "next/image";
 import { CourseBanner, CourseDetailsContainer, CourseDetailsSection, CourseDetailsText, CourseDetailsTitle, CourseMenuButton, CourseMenuButtonBorder, CourseMenuButtonContainer, CourseMenuContainer, CoursePage } from "./styles";
-import heart from "../../assets/heart-black.svg"
-import filledHeart from "../../assets/filled-heart-black.svg"
+import heart from "@/assets/heart-black.svg"
+import filledHeart from "@/assets/filled-heart-black.svg"
 import { Course } from "@/@types/course";
 
 interface CourseDetailsProps {

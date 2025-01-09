@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { SearchContainer, SearchInput } from "./styles";
-import search from "../../assets/search.svg";
+import search from "@/assets/search.svg";
 
 export function Search() {
     return (

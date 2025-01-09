@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { SocialMediaContainer } from "./styles";
-import whatsapp from "../../assets/whatsapp.svg";
-import youtube from "../../assets/youtube.svg";
-import facebook from "../../assets/facebook.svg";
-import instagram from "../../assets/instagram.svg";
+import whatsapp from "@/assets/whatsapp.svg";
+import youtube from "@/assets/youtube.svg";
+import facebook from "@/assets/facebook.svg";
+import instagram from "@/assets/instagram.svg";
 
 export default function SocialMedia() {
     return (

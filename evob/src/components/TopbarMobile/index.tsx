@@ -1,8 +1,8 @@
 import Image from "next/image";
-import logo from "../../assets/logo.svg";
-import search from "../../assets/search.svg";
-import menu from "../../assets/menu.svg";
-import enter from "../../assets/enter-purple.svg";
+import logo from "@/assets/logo.svg";
+import search from "@/assets/search.svg";
+import menu from "@/assets/menu.svg";
+import enter from "@/assets/enter-purple.svg";
 import { MenuContainer, TopBarMobileContainer } from "./styles";
 
 export default function TopbarMobile() {

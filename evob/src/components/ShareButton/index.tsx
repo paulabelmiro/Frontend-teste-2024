@@ -4,7 +4,7 @@ import { useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import SharePopup from "../SharePopup";
 import { ShareButtonContainer } from "./styles";
-import share from "../../assets/share.svg";
+import share from "@/assets/share.svg";
 
 export default function ShareButton() {
     const [isPopupVisible, setIsPopupVisible] = useState(false);

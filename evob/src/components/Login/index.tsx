@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { LoginButton, LoginContainer, RegisterButton } from "./styles";
-import user from "../../assets/user.svg";
-import enter from "../../assets/enter.svg";
+import user from "@/assets/user.svg";
+import enter from "@/assets/enter.svg";
 
 export function LoginMenu() {
     return (

@@ -1,9 +1,9 @@
-import { useFavorites } from "../../../contexts/favoritesContext";
+import { useFavorites } from "@/contexts/favoritesContext";
 import Image from "next/image";
 import { CardButton, CardContent, CardDescription, CardFavoriteButton, CardFavoriteContainer, CardImage, CardTag, CardTagsContainer, CardTagsMark, CardTagText, CardTitle, CardTitleContent, CourseCard } from "./styles";
-import fire from "../../../assets/fire.svg";
-import heart from "../../../assets/heart.svg";
-import filledHeart from "../../../assets/filled-heart.svg";
+import fire from "@/assets/fire.svg";
+import heart from "@/assets/heart.svg";
+import filledHeart from "@/assets/filled-heart.svg";
 import { useRouter } from 'next/navigation'
 import { Course } from "@/@types/course";
 
