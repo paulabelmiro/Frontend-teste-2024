@@ -3,7 +3,7 @@ import { LoginButton, LoginContainer, RegisterButton } from "./styles";
 import user from "@/assets/user.svg";
 import enter from "@/assets/enter.svg";
 
-export function LoginMenu() {
+export default function LoginMenu() {
     return (
         <LoginContainer>
             <RegisterButton>
