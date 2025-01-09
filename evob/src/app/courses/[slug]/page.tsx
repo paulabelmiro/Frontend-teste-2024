@@ -3,7 +3,7 @@ import ShareButton from "@/components/ShareButton";
 import { getCourseDetails } from "@/services/getCourseDetails";
 
 export default async function Course({ params }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
   try {
