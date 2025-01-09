@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { TopbarDesktop } from "../TopbarDesktop";
 import TopbarMobile from "../TopbarMobile";
 
-export function Header() {
+export default function Header() {
     const [isSmallScreen, setIsSmallScreen] = useState(false);
 
     useEffect(() => {

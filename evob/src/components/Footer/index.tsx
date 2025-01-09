@@ -1,3 +1,4 @@
+"use client"
 import SocialMedia from "../SocialMedia";
 import FooterButton from "./FooterButton";
 import LanguageButton from "./LanguageButton";
