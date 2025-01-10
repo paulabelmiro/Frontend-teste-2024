@@ -1,25 +1,11 @@
-type Banner = {
-    id: number;
-    title: string;
-    target: string;
-    description: string;
-    rules: object;
-    desktop: string;
-    mobile: string;
-}
+import { Banner } from "@/@types/banner";
+import { requestOptions } from "./requestOptions";
 
+// Retorna da API a lista de banners do site
 export async function getBanner(): Promise<Banner[]> {
-    const url = "https://api.evob.dev/content/banners";
+    const URL = process.env.NEXT_PUBLIC_API_URL + "banners/";
 
-    const requestOptions: RequestInit = {
-        method: "GET",
-        headers: {
-            Origin: "http://localhost:3024",
-        },
-        redirect: "follow",
-    };
-
-    const res = await fetch(url, requestOptions);
+    const res = await fetch(URL, requestOptions);
 
     if (!res.ok) {
         throw new Error("Não foi possível carregar o banner!");

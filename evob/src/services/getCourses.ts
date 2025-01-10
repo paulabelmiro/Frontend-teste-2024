@@ -1,17 +1,11 @@
 import { Course } from "@/@types/course";
+import { requestOptions } from "./requestOptions";
 
+// Retorna a lista de cursos da API
 export async function getCourses(): Promise<Course[]> {
-  const url = "https://api.evob.dev/content/courses";
+  const URL = process.env.NEXT_PUBLIC_API_URL + "courses/";
 
-  const requestOptions: RequestInit = {
-    method: "GET",
-    headers: {
-      Origin: "http://localhost:3024",
-    },
-    redirect: "follow",
-  };
-
-  const res = await fetch(url, requestOptions);
+  const res = await fetch(URL, requestOptions);
 
   if (!res.ok) {
     throw new Error("Não foi possível carregar os cursos!");
