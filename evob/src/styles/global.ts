@@ -10,4 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: ${props => props.theme["gray-100"]};
     }
+
+    button {
+        cursor: pointer;
+    }
 `
