@@ -9,6 +9,7 @@ export const Overlay = styled.div`
     width: 100vw;
     height: 100vh;
     background: rgba(39, 39, 39, 0.4);
+    transition: background-color 0.3s ease;;
 `
 
 export const PopupContainer = styled.div`
