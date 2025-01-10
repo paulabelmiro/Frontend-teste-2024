@@ -1,6 +1,7 @@
 import CourseDetails from "@/components/CourseDetails";
 import ShareButton from "@/components/ShareButton";
 import { getCourseDetails } from "@/services/getCourseDetails";
+import { notFound } from "next/navigation";
 
 export default async function Course({ params }: {
   params: Promise<{ slug: string }>;
@@ -17,6 +18,6 @@ export default async function Course({ params }: {
     )
   } catch (error) {
     console.log(error);
-    return <h1>Curso não encontrado :(</h1>
+    return notFound();
   }
 }
