@@ -11,7 +11,7 @@ interface CoursesProps {
 
 export default function Courses({ title, courses }: CoursesProps) {
     return (
-        <CoursesSection>
+        <CoursesSection id={title.replace(/\s/g, "-")}>
             <CoursesTopbar>
                 <CoursesTitle>{title}</CoursesTitle>
             </CoursesTopbar>
