@@ -13,8 +13,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "EVOB - Teste técnico",
-  description: "Site gerado para o teste técnico do processo seletivo da EVOB - Paula Belmiro",
+  title: "EVOB - Cursos Online",
+  description: "A melhor plataforma de cursos online",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
