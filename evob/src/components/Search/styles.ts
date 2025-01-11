@@ -5,6 +5,13 @@ export const SearchContainer = styled.div`
     display: flex;
     gap: 8px;
     align-items: center;
+
+    &:hover {
+        svg path {
+            fill: ${props => props.theme.yellow};
+        }
+        cursor: pointer;
+    }
 `
 
 export const SearchInput = styled.input`

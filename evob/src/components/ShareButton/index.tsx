@@ -1,10 +1,9 @@
 "use client"
-import Image from "next/image";
 import { useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import SharePopup from "../SharePopup";
 import { ShareButtonContainer } from "./styles";
-import share from "@/assets/share.svg";
+import { ShareIcon } from "../Icons/Share";
 
 export default function ShareButton() {
     const [isPopupVisible, setIsPopupVisible] = useState(false);
@@ -22,7 +21,7 @@ export default function ShareButton() {
     return (
         <>
             <ShareButtonContainer onClick={togglePopup}>
-                <Image src={share} width={24} height={24} alt="Compartilhar" />
+                <ShareIcon />
             </ShareButtonContainer>
             {isPopupVisible && (
                 <SharePopup togglePopup={togglePopup} url={currentUrl} />

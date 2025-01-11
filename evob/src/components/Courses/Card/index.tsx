@@ -1,11 +1,10 @@
 import { useFavorites } from "@/contexts/favoritesContext";
-import Image from "next/image";
 import { CardButton, CardContent, CardDescription, CardFavoriteButton, CardFavoriteContainer, CardImage, CardTag, CardTagsContainer, CardTagsMark, CardTagText, CardTitle, CardTitleContent, CourseCard } from "./styles";
-import fire from "@/assets/fire.svg";
-import heart from "@/assets/heart.svg";
-import filledHeart from "@/assets/filled-heart.svg";
 import { useRouter } from 'next/navigation'
 import { Course } from "@/@types/course";
+import { FilledHeartIcon } from "@/components/Icons/FilledHeart";
+import { HeartIcon } from "@/components/Icons/Heart";
+import { FireIcon } from "@/components/Icons/Fire";
 
 interface CardProps {
     course: Course
@@ -22,18 +21,18 @@ export default function Card({ course }: CardProps) {
             <CardImage $thumbnail={course.thumbnail}>
                 <CardFavoriteContainer>
                     <CardFavoriteButton onClick={() => toggleFavorite(course)}>
-                        <Image
-                            src={isFavorite ? filledHeart : heart}
-                            alt="Favorito"
-                            width={20}
-                            height={20}
-                        />
+                        {isFavorite ?
+                            <FilledHeartIcon />
+                            : <HeartIcon />
+                        }
                     </CardFavoriteButton>
                 </CardFavoriteContainer>
                 {
                     course.settings.course_types.live || course.settings.course_types.online || course.settings.course_types.presential ?
                         <CardTagsContainer>
-                            <CardTagsMark><Image src={fire} alt="Destaques" width={10} height={12} /></CardTagsMark>
+                            <CardTagsMark>
+                                <FireIcon />
+                            </CardTagsMark>
                             <CardTag>
                                 {course.settings.course_types.live ? <CardTagText>Ao vivo</CardTagText> : null}
                                 {course.settings.course_types.online ? <CardTagText>Online</CardTagText> : null}

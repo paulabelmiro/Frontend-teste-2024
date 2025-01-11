@@ -1,10 +1,10 @@
 "use client"
-import Image from "next/image";
 import { useState } from "react";
 import { Overlay, PopupCloseButton, PopupContainer, PopupCopyButton, PopupFooter, PopupFooterButton, PopupHeader, PopupShareButton, PopupShareContent, PopupCopyMessage, PopupShareUrl, PopupTitle } from "./styles";
-import close from "@/assets/close.svg";
-import copy from "@/assets/copy.svg";
-import whatsapp from "@/assets/whatsapp-white.svg";
+import { WhatsAppIcon } from "../Icons/WhatsApp";
+import { defaultTheme } from "@/styles/theme/default";
+import { CloseIcon } from "../Icons/Close";
+import { CopyIcon } from "../Icons/Copy";
 
 interface SharePopupProps {
     togglePopup: (event: React.MouseEvent<HTMLElement>) => void;
@@ -56,13 +56,13 @@ export default function SharePopup({ togglePopup, url }: SharePopupProps) {
                 <PopupHeader>
                     <PopupTitle>Compartilhar curso</PopupTitle>
                     <PopupCloseButton onClick={togglePopup}>
-                        <Image src={close} alt="Fechar" width={38} height={38} />
+                        <CloseIcon />
                     </PopupCloseButton>
                 </PopupHeader>
                 <PopupShareContent>
                     <PopupCopyButton onClick={handleCopy}>
                         <PopupShareUrl>{url}</PopupShareUrl>
-                        <Image src={copy} alt="Copiar" width={16} height={16} />
+                        <CopyIcon />
                     </PopupCopyButton>
                     {copied && <PopupCopyMessage>Copiado!</PopupCopyMessage>} {/* Mensagem visual de confirmação */}
                     <PopupShareButton
@@ -70,7 +70,7 @@ export default function SharePopup({ togglePopup, url }: SharePopupProps) {
                         $variantsize="sm"
                         onClick={handleShareWhatsApp}
                     >
-                        <Image src={whatsapp} alt="Whatsapp" width={16} height={16} />
+                        <WhatsAppIcon color={defaultTheme.white}/>
                         Compartilhar via Whatsapp
                     </PopupShareButton>
                 </PopupShareContent>

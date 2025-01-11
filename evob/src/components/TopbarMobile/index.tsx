@@ -1,22 +1,23 @@
 import Image from "next/image";
 import logo from "@/assets/logo.svg";
-import search from "@/assets/search.svg";
-import menu from "@/assets/menu.svg";
-import enter from "@/assets/enter-purple.svg";
 import { MenuContainer, TopBarMobileContainer } from "./styles";
 import Link from "next/link";
+import { SearchIcon } from "../Icons/Search";
+import { EnterIcon } from "../Icons/Enter";
+import { defaultTheme } from "@/styles/theme/default";
+import { MenuIcon } from "../Icons/Menu";
 
 export default function TopbarMobile() {
     return (
         <TopBarMobileContainer>
             <MenuContainer>
-                <Image src={menu} alt="Menu" width={22} height={20} />
-                <Image src={search} alt="Buscar" width={16} height={20} />
+                <MenuIcon />
+                <SearchIcon height={20} />
             </MenuContainer>
             <Link href="/">
                 <Image src={logo} alt="evob" width={50} height={20} />
             </Link>
-            <Image src={enter} alt="Login" width={20} height={20} />
+            <EnterIcon color={defaultTheme.purple} width={20} height={20} />
         </TopBarMobileContainer>
     )
 }

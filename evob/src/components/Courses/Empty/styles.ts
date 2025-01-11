@@ -11,7 +11,7 @@ export const EmptyContainer = styled.div`
     height: 137px;
 `
 
-export const EmptyIcon = styled.div`
+export const EmptyIconContainer = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
