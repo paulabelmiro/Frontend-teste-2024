@@ -48,7 +48,7 @@ export const CardsContainer = styled.div`
     padding: 0px;
     width: 100%;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;

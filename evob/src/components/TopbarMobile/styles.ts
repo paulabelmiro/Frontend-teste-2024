@@ -19,6 +19,5 @@ export const MenuContainer = styled.div`
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
-    margin: 0 auto;
     height: 20px;
 `

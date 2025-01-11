@@ -26,7 +26,7 @@ export const PopupContainer = styled.div`
     left: calc(50% - 91.5%/2);
     top: calc(50% - 234px/2 - 96.5px);
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
         left: calc(50% - 405px/2 + 0.5px);
         top: calc(50% - 234px/2 - 0.5px);
         width: 405px;

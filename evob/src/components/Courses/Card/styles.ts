@@ -14,6 +14,11 @@ export const CourseCard = styled.div`
     width: 100%;
     height: 353px;
 
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 20px)/2);
+        min-width: 245px;
+    }
+
     @media screen and (min-width: 1024px) {
         width: calc((100vw - 197px)/4);
         min-width: 245px;

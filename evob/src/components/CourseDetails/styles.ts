@@ -49,7 +49,7 @@ export const CourseDetailsSection = styled.section`
     gap: 16px;
     width: 100%;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 768px) {
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
