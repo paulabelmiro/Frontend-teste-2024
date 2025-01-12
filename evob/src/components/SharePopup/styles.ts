@@ -46,7 +46,7 @@ export const PopupHeader = styled.div`
 `
 
 export const PopupTitle = styled.h3`
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -85,7 +85,7 @@ export const PopupCopyButton = styled.button`
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 `
 export const PopupCopyMessage = styled.span`
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -99,7 +99,7 @@ export const PopupCopyMessage = styled.span`
 `
 
 export const PopupShareUrl = styled.span`
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

@@ -28,7 +28,7 @@ export const CoursesTopbar = styled.div`
 
 export const CoursesTitle = styled.h2`
     width: 100%;
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 400;
     font-size: 24px;

@@ -20,7 +20,7 @@ export const ButtonContainer = styled.button.withConfig({
     flex-grow: 0;
     color: ${(props) => props.theme.white};
     border: none;
-    font-family: "Inter";
+    font-family: ${props => props.theme.fonts.inter};
     font-weight: 700;
     font-size: 16px;
     line-height: 18.56px;

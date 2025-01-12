@@ -12,7 +12,7 @@ export const RegisterButton = styled.button`
     display: flex;
     gap: 8px;
     color: ${props => props.theme.black};
-    font-family: "inter";
+    font-family: ${props => props.theme.fonts.inter};
     font-weight: 500;
     font-size: 16px;
     line-height: 18.56px;
@@ -26,7 +26,7 @@ export const LoginButton = styled.button`
     display: flex;
     align-items: center;
     gap: 8px;
-    font-family: "inter";
+    font-family: ${props => props.theme.fonts.inter};
     font-size: 16px;
     font-weight: 500;
     line-height: 18.56px;

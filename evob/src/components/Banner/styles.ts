@@ -20,7 +20,7 @@ export const BannerTitle = styled.h1`
     max-width: 85%;
     height: 114px;
     color: ${props => props.theme.white};
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -28,6 +28,7 @@ export const BannerTitle = styled.h1`
     position: absolute;
     left: 20px;
     top: 248px;
+    mix-blend-mode: normal;
 
     @media screen and (min-width: 1024px) {
         font-size: 52px;
@@ -38,9 +39,6 @@ export const BannerTitle = styled.h1`
         top: 237px;
     }
     
-    
-
-    mix-blend-mode: normal;
 `
 export const BannerArea = styled.div.withConfig({
     shouldForwardProp: (prop) =>
@@ -56,7 +54,6 @@ export const BannerArea = styled.div.withConfig({
     width: 100%;
     height: 460px;
     left: 0px;
-    //top: 68px;
     ${(props) => css`
             background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), 
                 rgba(0, 0, 0, 0.35)), 
@@ -102,6 +99,8 @@ export const BannerButton = styled(ButtonContainer)`
     position: absolute;
     left: 20px;
     top: 275px;
+    font-family: ${props => props.theme.fonts.robotoCondensed};
+    font-weight: 700;
 
     @media screen and (min-width: 1024px) {
         order: 1;

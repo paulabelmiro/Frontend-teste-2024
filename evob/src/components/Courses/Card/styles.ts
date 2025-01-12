@@ -96,7 +96,7 @@ export const CardTitleContent = styled.div`
 `
 
 export const CardTitle = styled.h3`
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -106,7 +106,7 @@ export const CardTitle = styled.h3`
 `
 
 export const CardDescription = styled.p`
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -125,6 +125,7 @@ export const CardButton = styled(ButtonContainer)`
     align-self: stretch;
     flex-grow: 0;
     line-height: 19px;
+    font-family: ${props => props.theme.fonts.robotoCondensed};
 `
 
 export const CardTagsContainer = styled.div`
@@ -159,7 +160,7 @@ export const CardTag = styled.div`
 `
 
 export const CardTagText = styled.span`
-    //font-family: 'Quattrocento';
+    font-family: ${props => props.theme.fonts.quattrocento};
     font-style: normal;
     font-weight: 700;
     font-size: 12px;

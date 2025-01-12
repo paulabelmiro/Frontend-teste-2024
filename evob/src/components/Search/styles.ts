@@ -17,7 +17,7 @@ export const SearchContainer = styled.div`
 export const SearchInput = styled.input`
     height: 19px;
     color: ${props => props.theme.black};
-    font-family: "inter";
+    font-family: ${props => props.theme.fonts.inter};
     font-weight: 500;
     font-size: 16px;
     line-height: 18.56px;
@@ -27,6 +27,7 @@ export const SearchInput = styled.input`
     
     &::placeholder {
         color: ${props => props.theme.black};
+        font-family: ${props => props.theme.fonts.inter};
         font-weight: 500;
         font-size: 16px;
         line-height: 18.56px;

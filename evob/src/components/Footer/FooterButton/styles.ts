@@ -18,7 +18,7 @@ export const FooterButtonContainer = styled.a`
 `
 
 export const FooterButtonText = styled.span`
-    //font-family: 'Quattrocento';
+    font-family: ${props => props.theme.fonts.quattrocento};
     font-style: normal;
     font-weight: 700;
     font-size: 12px;

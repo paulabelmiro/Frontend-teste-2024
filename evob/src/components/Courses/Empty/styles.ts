@@ -29,7 +29,7 @@ export const EmptyIconContainer = styled.div`
 
 export const EmptyText = styled.p`
     width: 234px;
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 400;
     font-size: 14px;

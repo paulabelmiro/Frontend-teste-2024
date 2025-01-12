@@ -69,7 +69,7 @@ export const CourseDetailsContainer = styled.div`
 `
 
 export const CourseDetailsTitle = styled.h1`
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -82,7 +82,7 @@ export const CourseDetailsTitle = styled.h1`
 `
 
 export const CourseDetailsText = styled.div`
-    font-family: 'Inter';
+    font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -135,7 +135,6 @@ export const CourseMenuButtonContainer = styled.div`
 export const CourseMenuButton = styled(ButtonContainer)`
     width: 100%;
     border-radius: 2px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;

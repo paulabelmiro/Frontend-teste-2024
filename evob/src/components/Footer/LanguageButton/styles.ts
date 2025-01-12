@@ -21,7 +21,7 @@ export const LanguageButtonContainer = styled.a.withConfig({
             border-bottom: 2px solid ${props.$status === 'active' ? props.theme.purple : "transparent"};
         `
     }
-    //font-family: 'Quattrocento';
+    font-family: ${props => props.theme.fonts.quattrocento};
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
