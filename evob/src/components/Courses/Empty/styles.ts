@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const EmptyContainer = styled.div`
     display: flex;
@@ -9,7 +9,7 @@ export const EmptyContainer = styled.div`
     width: 282px;
     margin: auto;
     height: 137px;
-`
+`;
 
 export const EmptyIconContainer = styled.div`
     display: flex;
@@ -20,12 +20,12 @@ export const EmptyIconContainer = styled.div`
     width: 40px;
     height: 40px;
     background: ${props => props.theme.white};
-    border: 1px solid ${props => props.theme['gray-200']};
+    border: 1px solid ${props => props.theme["gray-200"]};
     border-radius: 9999999px;
     flex: none;
     order: 0;
     flex-grow: 0;
-`
+`;
 
 export const EmptyText = styled.p`
     width: 234px;
@@ -35,9 +35,9 @@ export const EmptyText = styled.p`
     font-size: 14px;
     line-height: 116%;
     text-align: center;
-    color: ${props => props.theme['gray-400']};
+    color: ${props => props.theme["gray-400"]};
     flex: none;
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-`
+`;

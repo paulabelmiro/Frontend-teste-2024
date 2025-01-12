@@ -10,7 +10,7 @@ export const Overlay = styled.div`
     height: 100vh;
     background: rgba(39, 39, 39, 0.4);
     transition: background-color 0.3s ease;;
-`
+`;
 
 export const PopupContainer = styled.div`
     display: flex;
@@ -31,7 +31,7 @@ export const PopupContainer = styled.div`
         top: calc(50% - 234px/2 - 0.5px);
         width: 405px;
     }
-`
+`;
 
 export const PopupHeader = styled.div`
     box-sizing: border-box;
@@ -43,7 +43,7 @@ export const PopupHeader = styled.div`
     width: 100%;
     height: 54px;
     border-bottom: 1px solid #F3F4F6;
-`
+`;
 
 export const PopupTitle = styled.h3`
     font-family: ${props => props.theme.fonts.inter};
@@ -53,14 +53,14 @@ export const PopupTitle = styled.h3`
     line-height: 125%;
     color: #262626;
     white-space: nowrap;
-`
+`;
 
 export const PopupCloseButton = styled.button`
     width: 38px;
     height: 38px;
     border: none;
     background: none;
-`
+`;
 
 export const PopupShareContent = styled.div`
     display: flex;
@@ -70,7 +70,7 @@ export const PopupShareContent = styled.div`
     gap: 16px;
     width: 100%;
     height: 120px;
-`
+`;
 
 export const PopupCopyButton = styled.button`
     display: flex;
@@ -83,7 +83,7 @@ export const PopupCopyButton = styled.button`
     background: ${props => props.theme["gray-150"]};
     border: 1px solid #D1D5DB;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-`
+`;
 export const PopupCopyMessage = styled.span`
     font-family: ${props => props.theme.fonts.inter};
     font-style: normal;
@@ -96,7 +96,7 @@ export const PopupCopyMessage = styled.span`
     right: 52px;
     background: ${props => props.theme.green};
     padding: 10px 20px;
-`
+`;
 
 export const PopupShareUrl = styled.span`
     font-family: ${props => props.theme.fonts.inter};
@@ -108,7 +108,7 @@ export const PopupShareUrl = styled.span`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-`
+`;
 
 export const PopupShareButton = styled(ButtonContainer)`
     font-weight: 500;
@@ -121,7 +121,7 @@ export const PopupShareButton = styled(ButtonContainer)`
     &:hover {
         background-color: ${props => props.theme.green};
     }
-`
+`;
 
 export const PopupFooter = styled.div`
     display: flex;
@@ -133,7 +133,7 @@ export const PopupFooter = styled.div`
     width: 100%;
     height: 60px;
     border-top: 1px solid #E5E7EB;
-`
+`;
 
 export const PopupFooterButton = styled(ButtonContainer)`
     width: 76px;
@@ -148,4 +148,4 @@ export const PopupFooterButton = styled(ButtonContainer)`
     &:hover {
         background: none;
     }
-`
+`;

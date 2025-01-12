@@ -17,5 +17,5 @@ export default function TopbarDesktop() {
                 <LoginMenu />
             </TopbarContainer>
         </HeaderContainer>
-    )
+    );
 }

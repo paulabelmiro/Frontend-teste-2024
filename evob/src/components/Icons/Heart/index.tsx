@@ -14,5 +14,5 @@ export const HeartIcon = ({ color = defaultTheme.white, width = 20, height = 20 
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

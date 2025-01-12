@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 import isPropValid from "@emotion/is-prop-valid";
-import { ButtonContainer } from '@/components/Button/styles';
+import { ButtonContainer } from "@/components/Button/styles";
 
 interface CardProps {
     $thumbnail?: string
@@ -23,7 +23,7 @@ export const CourseCard = styled.div`
         width: calc((100vw - 197px)/4);
         min-width: 245px;
     }
-`
+`;
 
 export const CardImage = styled.div.withConfig({
     shouldForwardProp: (prop) =>
@@ -45,7 +45,7 @@ export const CardImage = styled.div.withConfig({
     }
     background-size: cover;
     background-position: center;
-`
+`;
 
 export const CardFavoriteContainer = styled.div`
     display: flex;
@@ -56,7 +56,7 @@ export const CardFavoriteContainer = styled.div`
     isolation: isolate;
     width: 100%;
     height: 157px;
-`
+`;
 
 export const CardFavoriteButton = styled.button`
     display: flex;
@@ -70,7 +70,7 @@ export const CardFavoriteButton = styled.button`
     background: rgba(0, 0, 0, 0.35);
     border-radius: 999999px;
     border: none;
-`
+`;
 
 export const CardContent = styled.div`
     display: flex;
@@ -82,7 +82,7 @@ export const CardContent = styled.div`
     width: 100%;
     height: 196px;
     background: ${props => props.theme.white};
-`
+`;
 
 export const CardTitleContent = styled.div`
     display: flex;
@@ -93,7 +93,7 @@ export const CardTitleContent = styled.div`
     height: 60px;
     width: 100%;
     margin: 0 auto;
-`
+`;
 
 export const CardTitle = styled.h3`
     font-family: ${props => props.theme.fonts.inter};
@@ -102,8 +102,8 @@ export const CardTitle = styled.h3`
     font-size: 24px;
     line-height: 27.84px;
     width: 100%;
-    color: ${props => props.theme['gray-950']};
-`
+    color: ${props => props.theme["gray-950"]};
+`;
 
 export const CardDescription = styled.p`
     font-family: ${props => props.theme.fonts.inter};
@@ -114,8 +114,8 @@ export const CardDescription = styled.p`
     display: flex;
     align-items: flex-end;
     width: 100%;
-    color: ${props => props.theme['gray-950']};
-`
+    color: ${props => props.theme["gray-950"]};
+`;
 
 export const CardButton = styled(ButtonContainer)`
     width: 100%;
@@ -126,7 +126,7 @@ export const CardButton = styled(ButtonContainer)`
     flex-grow: 0;
     line-height: 19px;
     font-family: ${props => props.theme.fonts.robotoCondensed};
-`
+`;
 
 export const CardTagsContainer = styled.div`
     display: flex;
@@ -135,7 +135,7 @@ export const CardTagsContainer = styled.div`
     padding: 0px;
     gap: 8px;
     height: 22px;
-`
+`;
 
 export const CardTagsMark = styled.div`
     display: flex;
@@ -147,7 +147,7 @@ export const CardTagsMark = styled.div`
     width: 22px;
     height: 22px;
     background: ${props => props.theme.red};
-`
+`;
 
 export const CardTag = styled.div`
     display: flex;
@@ -156,8 +156,8 @@ export const CardTag = styled.div`
     padding: 4px 12px;
     gap: 12px;
     height: 22px;
-    background: ${props => props.theme['gray-900']};
-`
+    background: ${props => props.theme["gray-900"]};
+`;
 
 export const CardTagText = styled.span`
     font-family: ${props => props.theme.fonts.quattrocento};
@@ -168,4 +168,4 @@ export const CardTagText = styled.span`
     text-transform: uppercase;
     color: ${props => props.theme.white};
     mix-blend-mode: normal;
-`
+`;

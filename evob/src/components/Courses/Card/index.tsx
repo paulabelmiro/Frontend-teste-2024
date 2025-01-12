@@ -1,6 +1,6 @@
 import { useFavorites } from "@/contexts/favoritesContext";
 import { CardButton, CardContent, CardDescription, CardFavoriteButton, CardFavoriteContainer, CardImage, CardTag, CardTagsContainer, CardTagsMark, CardTagText, CardTitle, CardTitleContent, CourseCard } from "./styles";
-import { useRouter } from 'next/navigation'
+import { useRouter } from "next/navigation";
 import { Course } from "@/@types/course";
 import { FilledHeartIcon } from "@/components/Icons/FilledHeart";
 import { HeartIcon } from "@/components/Icons/Heart";
@@ -56,5 +56,5 @@ export default function Card({ course }: CardProps) {
                 </CardButton>
             </CardContent>
         </CourseCard>
-    )
+    );
 }

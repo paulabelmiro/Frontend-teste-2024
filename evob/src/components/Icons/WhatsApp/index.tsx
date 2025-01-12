@@ -16,5 +16,5 @@ export const WhatsAppIcon = ({ color = defaultTheme["gray-800"], width = 16, hei
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

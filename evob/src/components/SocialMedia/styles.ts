@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SocialMediaContainer = styled.div`
     display: flex;
@@ -9,4 +9,4 @@ export const SocialMediaContainer = styled.div`
     margin: 0;
     width: 124px;
     height: 16px;
-`
+`;

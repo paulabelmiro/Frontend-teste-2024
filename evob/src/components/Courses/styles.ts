@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CoursesSection = styled.section`
     display: flex;
@@ -14,7 +14,7 @@ export const CoursesSection = styled.section`
         align-items: flex-start;
     }
 
-`
+`;
 
 export const CoursesTopbar = styled.div`
     display: flex;
@@ -24,7 +24,7 @@ export const CoursesTopbar = styled.div`
     gap: 20px;
     text-align: left;
     width: 100%;
-`
+`;
 
 export const CoursesTitle = styled.h2`
     width: 100%;
@@ -33,12 +33,12 @@ export const CoursesTitle = styled.h2`
     font-weight: 400;
     font-size: 24px;
     line-height: 116%;
-    color: ${props => props.theme['gray-750']};
+    color: ${props => props.theme["gray-750"]};
 
     @media screen and (min-width: 1024px) {
         font-size: 32px;
     }
-`
+`;
 
 export const CardsContainer = styled.div`
     display: flex;
@@ -54,4 +54,4 @@ export const CardsContainer = styled.div`
         align-items: flex-start;
         align-content: flex-start;
     }
-`
+`;

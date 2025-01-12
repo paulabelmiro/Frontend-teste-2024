@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FooterContainer = styled.div`
     display: flex;
@@ -16,7 +16,7 @@ export const FooterContainer = styled.div`
         gap: unset;
     }
 
-`
+`;
 
 export const FooterButtons = styled.div`
     display: flex;
@@ -35,7 +35,7 @@ export const FooterButtons = styled.div`
         width: 418px;
         height: 22px;
     }
-`
+`;
 
 export const LanguageContainer = styled.div`
     display: flex;
@@ -45,4 +45,4 @@ export const LanguageContainer = styled.div`
     gap: 20px;
     width: 91px;
     height: 20px;
-`
+`;

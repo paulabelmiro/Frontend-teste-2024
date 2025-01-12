@@ -20,5 +20,5 @@ export const InstagramIcon = ({ color = defaultTheme["gray-800"], width = 16, he
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LoginContainer = styled.div`
     height: 35px;
     display: flex;
     gap: 20px;
     align-items: center;
-`
+`;
 
 export const RegisterButton = styled.button`
     height: 19px;
@@ -18,7 +18,7 @@ export const RegisterButton = styled.button`
     line-height: 18.56px;
     border: none;
     background: none;
-`
+`;
 
 export const LoginButton = styled.button`
     height: 35px;
@@ -41,4 +41,4 @@ export const LoginButton = styled.button`
         background-color: ${props => props.theme.yellow};
         transition: background-color 300ms ease-out;
     }
-`
+`;

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import SocialMedia from "../SocialMedia";
 import FooterButton from "./FooterButton";
 import LanguageButton from "./LanguageButton";
@@ -18,5 +18,5 @@ export default function Footer() {
                 </LanguageContainer>
             </FooterButtons>
         </FooterContainer>
-    )
+    );
 }

@@ -11,5 +11,5 @@ export const SearchIcon = ({ color = defaultTheme.purple, width = 16, height = 1
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

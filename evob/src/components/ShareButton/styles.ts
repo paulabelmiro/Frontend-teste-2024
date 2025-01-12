@@ -20,4 +20,4 @@ export const ShareButtonContainer = styled.button`
         left: 91%;
         top: 75vh;
     }
-`
+`;

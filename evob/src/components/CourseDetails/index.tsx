@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useFavorites } from "@/contexts/favoritesContext";
 import { CourseBanner, CourseDetailsContainer, CourseDetailsSection, CourseDetailsText, CourseDetailsTitle, CourseMenuButton, CourseMenuButtonBorder, CourseMenuButtonContainer, CourseMenuContainer, CoursePage } from "./styles";
 import { Course } from "@/@types/course";
@@ -34,5 +34,5 @@ export default function CourseDetails({ course }: CourseDetailsProps) {
                 </CourseMenuContainer>
             </CourseDetailsSection>
         </CoursePage>
-    )
+    );
 }

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FooterButtonContainer = styled.a`
     display: flex;
@@ -15,7 +15,7 @@ export const FooterButtonContainer = styled.a`
         border: 2px solid ${props => props.theme.yellow};
         transition: width 300ms ease-out;
     }
-`
+`;
 
 export const FooterButtonText = styled.span`
     font-family: ${props => props.theme.fonts.quattrocento};
@@ -25,12 +25,12 @@ export const FooterButtonText = styled.span`
     line-height: 120%;
     display: flex;
     align-items: center;
-    color: ${props => props.theme['gray-800']};
+    color: ${props => props.theme["gray-800"]};
     white-space: nowrap;
-`
+`;
 
 export const FooterButtonUnderline = styled.div`
     width: 1px;
     height: 0px;
     border: 1px solid transparent;
-`
+`;

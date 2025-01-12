@@ -29,5 +29,5 @@ export const EmptyIcon = ({ color = defaultTheme["gray-850"], width = 24, height
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

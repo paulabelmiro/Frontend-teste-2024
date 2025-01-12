@@ -9,5 +9,5 @@ export default function Empty() {
             </EmptyIconContainer>
             <EmptyText>Parece que você ainda não tem cursos favoritados</EmptyText>
         </EmptyContainer>
-    )
+    );
 }

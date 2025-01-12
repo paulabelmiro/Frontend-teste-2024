@@ -37,5 +37,5 @@ export const ShareIcon = ({ color = "#362828", width = 24, height = 24 }: IconPr
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

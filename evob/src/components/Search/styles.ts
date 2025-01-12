@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const SearchContainer = styled.div`
     height: 19px;
@@ -12,7 +12,7 @@ export const SearchContainer = styled.div`
         }
         cursor: pointer;
     }
-`
+`;
 
 export const SearchInput = styled.input`
     height: 19px;
@@ -32,4 +32,4 @@ export const SearchInput = styled.input`
         font-size: 16px;
         line-height: 18.56px;
     }
-`
+`;

@@ -11,5 +11,5 @@ export const MenuIcon = ({ color = defaultTheme.purple, width = 22, height = 20 
                 <rect width="19.1304" height="1.90476" rx="0.952381" fill={color} />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

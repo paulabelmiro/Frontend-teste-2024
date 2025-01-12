@@ -12,5 +12,5 @@ export default function SocialMedia() {
             <FacebookIcon />
             <InstagramIcon />
         </SocialMediaContainer>
-    )
+    );
 }

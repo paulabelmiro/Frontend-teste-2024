@@ -42,5 +42,5 @@ export const CopyIcon = ({ color = "#323334", width = 16, height = 16 }: IconPro
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

@@ -12,5 +12,5 @@ export const EnterIcon = ({ color = defaultTheme.white, width = 16, height = 16 
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

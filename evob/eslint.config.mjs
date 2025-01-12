@@ -10,7 +10,13 @@ const compat = new FlatCompat({
 });
 
 const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
-];
+    ...compat.extends("next/core-web-vitals", "next/typescript"),
+    {
+      rules: {
+        "quotes": ["error", "double"], // Força o uso de aspas duplas
+        "semi": ["error", "always"],  // Força o uso de ponto e vírgula
+      },
+    },
+  ];
 
 export default eslintConfig;

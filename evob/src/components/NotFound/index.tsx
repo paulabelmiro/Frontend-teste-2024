@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { NotFoundContainer, NotFoundMessage, NotFoundText, NotFoundTitle } from "./styles";
 import error404 from "@/assets/404.png";
@@ -21,5 +21,5 @@ export default function NotFound() {
                 Acessar a Home
             </ButtonContainer>
         </NotFoundContainer>
-    )
+    );
 }

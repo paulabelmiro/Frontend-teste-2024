@@ -9,5 +9,5 @@ export const CloseIcon = ({ color = "#262626", width = 38, height = 38 }: IconPr
                 <path d="M23.4808 23.4809L14.5192 14.5192" stroke={color} strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

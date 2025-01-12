@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Course } from "@/@types/course";
 import { CardsContainer, CoursesSection, CoursesTitle, CoursesTopbar } from "./styles";
 import Card from "./Card";
@@ -30,5 +30,5 @@ export default function Courses({ title, courses }: CoursesProps) {
                     </CardsContainer>
             }
         </CoursesSection>
-    )
+    );
 }

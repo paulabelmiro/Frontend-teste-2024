@@ -12,5 +12,5 @@ export const FireIcon = ({ color = defaultTheme["gray-900"], width = 10, height 
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

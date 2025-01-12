@@ -11,5 +11,5 @@ export const FilledHeartIcon = ({ color = "#D9D9D9", width = 20, height = 20 }: 
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};

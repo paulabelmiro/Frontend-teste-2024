@@ -25,14 +25,14 @@ export async function generateMetadata(
   }
 
   const course = courseCache.get(slug)!;
-  const previousImages = (await parent).openGraph?.images || []
+  const previousImages = (await parent).openGraph?.images || [];
 
   return {
     title: course.title,
     openGraph: {
       images: [course.thumbnail, ...previousImages],
     },
-  }
+  };
 }
 
 export default async function Course({ params }: CourseProps) {
@@ -55,5 +55,5 @@ export default async function Course({ params }: CourseProps) {
       <CourseDetails course={course} />
       <ShareButton />
     </>
-  )
+  );
 } 

@@ -13,5 +13,5 @@ export const YoutubeIcon = ({ color = defaultTheme["gray-800"], width = 16, heig
             </svg>
 
         </IconContainer>
-    )
-}
+    );
+};

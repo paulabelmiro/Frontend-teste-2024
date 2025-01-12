@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 import isPropValid from "@emotion/is-prop-valid";
 
 export type ButtonVariantColor = "primary" | "secondary" | "white" | "green";

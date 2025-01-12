@@ -32,4 +32,4 @@ export const GlobalStyle = createGlobalStyle`
     *::-webkit-scrollbar-thumb {
         background-color: ${props => props.theme.purple};
     }
-`
+`;

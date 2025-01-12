@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     styledComponents: true,
   },
   images: {
-    domains: ['evob-dev-upload.s3.amazonaws.com'],
+    domains: ["evob-dev-upload.s3.amazonaws.com"],
   },
 };
 

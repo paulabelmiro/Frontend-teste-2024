@@ -6,5 +6,5 @@ export default function Search() {
             <SearchIcon />
             <SearchInput placeholder="Busca" />
         </SearchContainer>
-    )
+    );
 }

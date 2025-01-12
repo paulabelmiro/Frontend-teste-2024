@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
     display: flex;
@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
     height: 75px;
     width: 100%;
     backdrop-filter: blur(10px);  
-`
+`;
 
 export const TopbarContainer = styled.div`
     height: 35px;
@@ -18,4 +18,4 @@ export const TopbarContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-`
+`;

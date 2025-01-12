@@ -10,5 +10,5 @@ export default function FooterButton({ text }: FooterButtonProps) {
             <FooterButtonText>{text}</FooterButtonText>
             <FooterButtonUnderline />
         </FooterButtonContainer>
-    )
+    );
 }

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useFavorites } from "@/contexts/favoritesContext";
 import Courses from "../Courses";
 

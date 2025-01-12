@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 import isPropValid from "@emotion/is-prop-valid";
-import { ButtonContainer } from '../Button/styles';
+import { ButtonContainer } from "../Button/styles";
 
 interface BannerAreaProps {
     $srcdesktop: string
@@ -14,7 +14,7 @@ export const BannerContainer = styled.div`
     @media screen and (min-width: 1024px) {
         height: 540px;
     }
-`
+`;
 export const BannerTitle = styled.h1`
     width: 335px;
     max-width: 85%;
@@ -39,7 +39,7 @@ export const BannerTitle = styled.h1`
         top: 237px;
     }
     
-`
+`;
 export const BannerArea = styled.div.withConfig({
     shouldForwardProp: (prop) =>
         isPropValid(prop) && !["$srcdesktop", "$srcmobile"].includes(prop),
@@ -79,7 +79,7 @@ export const BannerArea = styled.div.withConfig({
         background-size: cover;
         background-repeat: no-repeat;
     }
-`
+`;
 
 export const BannerAreaColor = styled.div`
 
@@ -93,7 +93,7 @@ export const BannerAreaColor = styled.div`
         clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
     }
     
-`
+`;
 
 export const BannerButton = styled(ButtonContainer)`  
     position: absolute;
@@ -108,4 +108,4 @@ export const BannerButton = styled(ButtonContainer)`
         left: 44px;
         top: 427px;
     }
-`
+`;

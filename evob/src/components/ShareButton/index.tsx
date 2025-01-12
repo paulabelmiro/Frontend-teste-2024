@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import SharePopup from "../SharePopup";
@@ -27,5 +27,5 @@ export default function ShareButton() {
                 <SharePopup togglePopup={togglePopup} url={currentUrl} />
             )}
         </>
-    )
+    );
 }

@@ -1,6 +1,6 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 import isPropValid from "@emotion/is-prop-valid";
-import { ButtonContainer } from '../Button/styles';
+import { ButtonContainer } from "../Button/styles";
 
 interface CourseBannerProps {
     $srcdesktop: string
@@ -14,7 +14,7 @@ export const CoursePage = styled.div`
     padding: 0px;
     width: 100%;
     flex-grow: 1;
-`
+`;
 
 export const CourseBanner = styled.div.withConfig({
     shouldForwardProp: (prop) =>
@@ -39,7 +39,7 @@ export const CourseBanner = styled.div.withConfig({
         background-size: cover;
         background-position: center;   
     }
-`
+`;
 
 export const CourseDetailsSection = styled.section`
     display: flex;
@@ -57,7 +57,7 @@ export const CourseDetailsSection = styled.section`
         gap: 64px;
         width: 100%;
     }
-`
+`;
 
 export const CourseDetailsContainer = styled.div`
     display: flex;
@@ -66,7 +66,7 @@ export const CourseDetailsContainer = styled.div`
     align-items: flex-start;
     padding: 0px;
     gap: 20px;
-`
+`;
 
 export const CourseDetailsTitle = styled.h1`
     font-family: ${props => props.theme.fonts.inter};
@@ -74,12 +74,12 @@ export const CourseDetailsTitle = styled.h1`
     font-weight: 600;
     font-size: 24px;
     line-height: 116%;
-    color: ${props => props.theme['gray-750']};
+    color: ${props => props.theme["gray-750"]};
 
     @media screen and (min-width: 1024px) {
         font-size: 32px;
     }
-`
+`;
 
 export const CourseDetailsText = styled.div`
     font-family: ${props => props.theme.fonts.inter};
@@ -87,12 +87,12 @@ export const CourseDetailsText = styled.div`
     font-weight: 400;
     font-size: 16px;
     line-height: 116%;
-    color: ${props => props.theme['gray-750']};
+    color: ${props => props.theme["gray-750"]};
 
     @media screen and (min-width: 1024px) {
         font-size: 20px;
     }
-`
+`;
 
 export const CourseMenuContainer = styled.div`
     display: flex;
@@ -106,7 +106,7 @@ export const CourseMenuContainer = styled.div`
     @media screen and (min-width: 1024px) {
         width: 114px;
     }
-`
+`;
 
 export const CourseMenuButtonBorder = styled.div`
     display: flex;
@@ -119,7 +119,7 @@ export const CourseMenuButtonBorder = styled.div`
     border: 1px solid #D4D9EB;
     border-radius: 2px;
     box-sizing: unset;
-`
+`;
 
 export const CourseMenuButtonContainer = styled.div`
     display: flex;
@@ -130,7 +130,7 @@ export const CourseMenuButtonContainer = styled.div`
     width: 100%;
     height: 31px;
     box-sizing: unset;
-`
+`;
 
 export const CourseMenuButton = styled(ButtonContainer)`
     width: 100%;
@@ -146,4 +146,4 @@ export const CourseMenuButton = styled(ButtonContainer)`
     &:hover {
         background-color: ${props => props.theme.white};
     }
-`
+`;

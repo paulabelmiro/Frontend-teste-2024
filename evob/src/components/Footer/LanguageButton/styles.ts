@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import isPropValid from "@emotion/is-prop-valid";
 
-export type LanguageButtonVariant = 'active' | 'inactive';
+export type LanguageButtonVariant = "active" | "inactive";
 
 interface LanguageButtonContainerProps {
     $status: LanguageButtonVariant
@@ -18,7 +18,7 @@ export const LanguageButtonContainer = styled.a.withConfig({
     gap: 10px;
     height: 20px;
     ${props => css`
-            border-bottom: 2px solid ${props.$status === 'active' ? props.theme.purple : "transparent"};
+            border-bottom: 2px solid ${props.$status === "active" ? props.theme.purple : "transparent"};
         `
     }
     font-family: ${props => props.theme.fonts.quattrocento};
@@ -27,5 +27,5 @@ export const LanguageButtonContainer = styled.a.withConfig({
     font-size: 12px;
     line-height: 120%;
     text-align: center;
-    color: ${props => props.theme['gray-800']};
-`
+    color: ${props => props.theme["gray-800"]};
+`;

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { MaintenanceContainer, MaintenanceMessage, MaintenanceText, MaintenanceTitle } from "./styles";
 import maintenance from "@/assets/maintenance.png";
@@ -12,5 +12,5 @@ export default function Maintenance() {
                 <MaintenanceText>Parece que nosssos dados não estão disponíveis neste momento, você pode tentar acessar novamente mais tarde.</MaintenanceText>
             </MaintenanceMessage>
         </MaintenanceContainer>
-    )
+    );
 }

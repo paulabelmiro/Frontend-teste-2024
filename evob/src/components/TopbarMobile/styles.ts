@@ -11,7 +11,7 @@ export const TopBarMobileContainer = styled.div`
     width: 100%;
     height: 68px;
     backdrop-filter: blur(5px);
-`
+`;
 
 export const MenuContainer = styled.div`
     display: flex;
@@ -20,4 +20,4 @@ export const MenuContainer = styled.div`
     padding: 0px;
     gap: 20px;
     height: 20px;
-`
+`;

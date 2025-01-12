@@ -12,7 +12,7 @@ export const MaintenanceContainer = styled.div`
     @media screen and (min-width: 1024px) {
         min-height: 420px;
     }
-`
+`;
 
 export const MaintenanceMessage = styled.div`
     display: flex;
@@ -20,20 +20,20 @@ export const MaintenanceMessage = styled.div`
     width: 400px;
     max-width: 80%;
     gap: 20px;
-`
+`;
 export const MaintenanceTitle = styled.h1`
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 116%;
-    color: ${props => props.theme['gray-750']};
+    color: ${props => props.theme["gray-750"]};
     text-align: center;
 
     @media screen and (min-width: 1024px) {
         font-size: 42px;
     }
-`
+`;
 export const MaintenanceText = styled.p`
     font-family: 'Inter';
     font-style: normal;
@@ -42,4 +42,4 @@ export const MaintenanceText = styled.p`
     line-height: 116%;
     text-align: center;
     color: ${props => props.theme["gray-400"]};
-`
+`;

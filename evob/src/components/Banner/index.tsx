@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Banner } from "@/@types/banner";
 import { BannerArea, BannerAreaColor, BannerButton, BannerContainer, BannerTitle } from "./styles";
 import { useRouter } from "next/navigation";
@@ -20,5 +20,5 @@ export default function HomeBanner({ banner, target }: BannerProps) {
       </BannerArea>
       <BannerTitle>{banner.description}</BannerTitle>
     </BannerContainer>
-  )
+  );
 }

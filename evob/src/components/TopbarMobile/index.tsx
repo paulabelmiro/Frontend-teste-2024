@@ -19,5 +19,5 @@ export default function TopbarMobile() {
             </Link>
             <EnterIcon color={defaultTheme.purple} width={20} height={20} />
         </TopBarMobileContainer>
-    )
+    );
 }

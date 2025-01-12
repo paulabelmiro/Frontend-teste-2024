@@ -18,5 +18,5 @@ export default function Header() {
 
     return isSmallScreen ?
         <TopbarMobile />
-        : <TopbarDesktop />
+        : <TopbarDesktop />;
 }

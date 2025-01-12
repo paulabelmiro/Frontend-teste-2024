@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { Overlay, PopupCloseButton, PopupContainer, PopupCopyButton, PopupFooter, PopupFooterButton, PopupHeader, PopupShareButton, PopupShareContent, PopupCopyMessage, PopupShareUrl, PopupTitle } from "./styles";
 import { WhatsAppIcon } from "../Icons/WhatsApp";
@@ -85,5 +85,5 @@ export default function SharePopup({ togglePopup, url }: SharePopupProps) {
                 </PopupFooter>
             </PopupContainer>
         </Overlay>
-    )
+    );
 }

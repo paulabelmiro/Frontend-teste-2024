@@ -5,6 +5,6 @@ interface LanguageButtonProps {
     status?: LanguageButtonVariant
 }
 
-export default function LanguageButton({ language, status = 'inactive' }: LanguageButtonProps) {
-    return <LanguageButtonContainer $status={status}>{language}</LanguageButtonContainer>
+export default function LanguageButton({ language, status = "inactive" }: LanguageButtonProps) {
+    return <LanguageButtonContainer $status={status}>{language}</LanguageButtonContainer>;
 }

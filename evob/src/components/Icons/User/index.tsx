@@ -16,5 +16,5 @@ export const UserIcon = ({ color = defaultTheme.purple, width = 16, height = 16 
                 />
             </svg>
         </IconContainer>
-    )
-}
+    );
+};
