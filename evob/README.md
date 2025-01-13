@@ -21,7 +21,7 @@
 <p>&nbsp;</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/paulabelmiro/Frontend-teste-2024"> 
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/paulabelmiro/Frontend-teste-2024">
   <img alt="GitHub stars" src="https://img.shields.io/github/stars/paulabelmiro/Frontend-teste-2024?style=social" >
 </p>
 
@@ -164,7 +164,7 @@ A aplicação está hospedada na plataforma Vercel e pode ser acessada pelo link
 
 Gravei um vídeo explicando a implementação e os desafios superados durante o desenvolvimento. Acesse pelo link:
 
-<a href="https://frontend-teste-2024.vercel.app/">Link para o vídeo</a>
+<a href="https://youtu.be/Cauo8N9Ui9w">Link para o vídeo</a>
 
 ---
 
